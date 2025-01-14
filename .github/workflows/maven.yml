@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '8'
-          distribution: 'adoptopenjdk'
+          distribution: 'adoptium'
 
       - name: Cache Maven dependencies
         uses: actions/cache@v2
@@ -34,4 +34,4 @@ jobs:
 
       - name: Build and deploy to GitHub Packages
         run: |
-          mvn clean deploy -DskipTests  # 如果不需要跳过测试，删除 -DskipTests
+          mvn clean deploy -DskipTests
