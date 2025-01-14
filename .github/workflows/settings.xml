@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>github</id>
+            <username>YOUR_GITHUB_USERNAME</username>
+            <password>${env.MY_GITHUB_TOKEN}</password>  <!-- 使用 GitHub Actions 环境变量 -->
+        </server>
+    </servers>
+</settings>

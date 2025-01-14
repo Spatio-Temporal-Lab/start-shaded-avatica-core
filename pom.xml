@@ -54,4 +54,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Spatio-Temporal-Lab/start-shaded-avatica-core</url>
+        </repository>
+    </distributionManagement>
+
 </project>
