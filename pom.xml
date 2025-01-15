@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <name>start-shaded-avatica-core</name>
     <description>start shaded avatica core</description>
-    <version>1.17.0</version>
+    <version>1.23.0</version>
 
     <properties>
         <start.prefix>org.urbcomp.start</start.prefix>
@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.apache.calcite.avatica</groupId>
             <artifactId>avatica-core</artifactId>
-            <version>1.17.0</version>
+            <version>1.23.0</version>
         </dependency>
     </dependencies>
 
